@@ -1,0 +1,108 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+.AboutUs {
+    flex: 2; 
+    margin-right: 20px;
+    margin-left: 200px;
+    
+}
+aside {
+    flex: 1; 
+    background-color: white;
+    padding: 15px;
+    margin-right: 200px;
+}
+
+h2 {
+    color: rgb(93, 175, 93);
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+strong {
+    color: #000; 
+}
+.sidebar-menu {
+    margin-top: 20px;
+}
+
+.sidebar-menu h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu p {
+    margin: 5px 0;
+    cursor: pointer; 
+}
+
+h4 {
+    color: #444; 
+    margin-top: 15px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px; 
+}
+
+
+.sidebar {
+    width: 250px; 
+    padding: 20px;
+    background-color: white; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px; 
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar h2 {
+    color: #5cb85c;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li p{
+    color: #7b7878;
+}
+.blurred{
+    color: #7b7878;
+}
+
+.content {
+    flex-grow: 1; 
+    padding: 20px;
+    background-color: #fff; 
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+

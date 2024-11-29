@@ -1,0 +1,153 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.slogan {
+    font-size: 1.2em;
+}
+
+.title span {
+    font-size: 2em;
+    color: orange;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content-images {
+    width: 70%;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sidebar-section {
+    width: 30%;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+    padding: 40px;
+}
+
+.content-section {
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    margin:  0;
+    flex: 1 0 48%;
+    box-sizing: border-box;
+}
+
+.content-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section h3 {
+    color: #5cb85c;
+}
+
+.content-section p {
+    color: #333;
+}
+
+.content-section p a{
+    color: #5cb85c;
+}
+
+.read-more {
+    color: #ec3326;
+    text-decoration: none;
+}
+
+.comments{
+    color: #5cb85c;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px; 
+}
+
+
+.sidebar {
+    width: 250px; 
+    padding: 20px;
+    background-color: white; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px; 
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar h2 {
+    color: #5cb85c;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li p{
+    color: #7b7878;
+}
+.blurred{
+    color: #7b7878;
+}
+
+.content {
+    flex-grow: 1; 
+    padding: 20px;
+    background-color: #fff; 
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
